@@ -1,0 +1,22 @@
+{
+  "name": "google-geocoder",
+  "version": "1.0.0",
+  "description": "Google geocoder generic tool",
+  "main": "index.js",
+  "author": "Jairo Anaya / Disruptica",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node index",
+    "debug": "node index"
+  },
+  "dependencies": {
+    "@google/maps": "^0.4.6",
+    "commander": "^2.11.0",
+    "dotenv": "^4.0.0",
+    "geojson-bounds": "^1.0.1",
+    "iconv-lite": "^0.4.19",
+    "inquirer": "^4.0.0",
+    "node-geocoder": "^3.21.1"
+  }
+}
